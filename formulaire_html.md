@@ -57,3 +57,6 @@
 - `<iframe>` : Intègre un autre document HTML dans le document courant.
 - `<canvas>` : Utilisé pour dessiner des graphiques à la volée via JavaScript.
 - `<svg>` : Définit des graphiques vectoriels.
+
+
+En espérant que cela puisse aider.
