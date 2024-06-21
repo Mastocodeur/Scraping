@@ -1,1 +1,5 @@
-selenium ==
+selenium
+beautifulsoup
+html5lib
+bs4
+requests
