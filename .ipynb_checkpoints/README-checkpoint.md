@@ -18,3 +18,5 @@ Le scraping web est généralement autorisé dans les cas suivants :</p>
 - Les informations recueillies ne sont pas protégées par un login.</li>
 
 Il faut souvent être prudent lors du scraping, notamment vis-à-vis des Termes de service, des données protégées par le droit d'auteur et des données personnelles (car les données personnelles sont généralement protégées par les lois sur la vie privée). Le manque de lois explicites fait des usages du scraping une pratique juridiquement complexe.
+
+url/robots.txt
