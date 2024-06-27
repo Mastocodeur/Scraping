@@ -47,8 +47,12 @@ Pour accéder à ce fichier, il s'agit de taper : url_racine/robots.txt
 Ce fichier permet de cadrer le trafic des robots d'exploration. On peut grâce à ce fichier connaitre les limitations imposées aux robots d'exploration.
 
 
-## Sources 
+## Sources et documentation
 - [Le web scrping est-il légal ?](https://www.iubenda.com/fr/help/111962-le-web-scraping-est-il-legal-ce-que-vous-devez-savoir#:~:text=La%20l%C3%A9galit%C3%A9%20du%20web%20scraping&text=Ne%20soyez%20pas%20trop%20enthousiaste,pas%20prot%C3%A9g%C3%A9es%20par%20un%20login)
 
 - [Présentation du fichier robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=fr)
 
+- [Documentation Selenium](https://selenium-python.readthedocs.io/)
+
+- [Documentation BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- 
