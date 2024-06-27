@@ -55,4 +55,3 @@ Ce fichier permet de cadrer le trafic des robots d'exploration. On peut gr√¢ce √
 - [Documentation Selenium](https://selenium-python.readthedocs.io/)
 
 - [Documentation BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
-- 
