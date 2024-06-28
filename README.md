@@ -1,3 +1,4 @@
+<div align="center" markdown>
 # [Atelier Scraping]
 
 Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulSoup.
@@ -10,8 +11,6 @@ Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulS
 🌏
 [**English**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.md) |
 Français |
-[**한국어**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.ko.md) |
-[**日本語**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.ja.md)
 
 
 
