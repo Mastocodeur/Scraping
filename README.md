@@ -1,3 +1,26 @@
+# [Atelier Scraping]
+
+Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulSoup.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mmg?color)](https://pypi.org/project/mmg/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mmg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ryul1206/multilingual-markdown)
+[![PyPI - License](https://img.shields.io/pypi/l/mmg)](https://github.com/ryul1206/multilingual-markdown/blob/main/LICENSE)
+
+🌏
+[**English**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.md) |
+Français |
+[**한국어**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.ko.md) |
+[**日本語**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.ja.md)
+
+
+
+</div>
+
+
+
+
+
 ## Table des Matières
 
 1. [Qu'est-ce que le scraping ?](#qu-est-ce-que-le-scraping)
