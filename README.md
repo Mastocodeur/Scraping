@@ -1,7 +1,7 @@
 <div align="center" markdown>
-# [Atelier Scraping](https://github.com/Mastocodeur/Tutorial_Scraping/)
+# [Scraping Workshop](https://github.com/Mastocodeur/Tutorial_Scraping/)
 
-Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulSoup.
+Workshop to discover two Python modules for scraping: Selenium and BeautifulSoup.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/mmg?color)](https://pypi.org/project/mmg/)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mmg)
@@ -9,59 +9,55 @@ Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulS
 [![PyPI - License](https://img.shields.io/pypi/l/mmg)](https://github.com/ryul1206/multilingual-markdown/blob/main/LICENSE)
 
 🌏
-[**English**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.md) |
-Français |
+[**French**](https://github.com/ryul1206/multilingual-markdown/blob/main/README.md) |
+English |
 
 
 
 </div>
 
+## Table of Contents
 
-
-
-
-## Table des Matières
-
-1. [Qu'est-ce que le scraping ?](#qu-est-ce-que-le-scraping)
-2. [Introduction au HTML](#introduction-au-html)
-3. [Législation autour du scraping](#législation-autour-du-scraping)
+1. [What is Scraping?](#what-is-scraping)
+2. [Introduction to HTML](#introduction-to-html)
+3. [Legislation Around Scraping](#legislation-around-scraping)
 4. [Selenium vs BeautifulSoup](#selenium-vs-beautifulsoup)
-5. [Les différentes façons de localiser des éléments Web](#les-différentes-façons-de-localiser-des-éléments-web)
-6. [Avenir du scraping : LaVague](#avenir-du-scraping-lavague)
-7. [Bonus: robots.txt](#bonus-robots.txt)
-8. [Sources et documentation](#sources-et-documentation)
+5. [Different Ways to Locate Web Elements](#different-ways-to-locate-web-elements)
+6. [Future of Scraping: LaVague](#future-of-scraping-lavague)
+7. [Bonus: robots.txt](#bonus-robotstxt)
+8. [Sources and Documentation](#sources-and-documentation)
 
+## What is Scraping?
 
-## Le scraping, qu'est-ce que c'est ?
+Scraping, or "web scraping," is a technique used to automatically extract data from websites. This method allows the retrieval of structured or semi-structured information available on web pages, which can then be analyzed, processed, or stored for various uses. It also allows the automation of tasks on a website. There are several Python modules for scraping: BeautifulSoup, Selenium, Scrapy, Requests, Octoparse.
 
-Le scraping, ou "web scraping", est une technique utilisée pour extraire automatiquement des données à partir de sites web. Cette méthode permet de récupérer des informations structurées ou semi-structurées disponibles sur des pages web, que l'on peut ensuite analyser, traiter ou stocker pour divers usages. Mais il permet également d'automatiser des tâches sur un site. Il existe plusieurs module python permettant de faire du scraping : BeautifulSoup, Selenium, Scrapy, Requests, Octoparse.
+We will use BeautifulSoup and Selenium in these different workshops.
 
-Nous utiliserons BeautifulSoup et Selenium dans ces différents ateliers.
+## Introduction to HTML
 
-## Introduction au HTML
-Scraper nécessite de savoir interpréter les codes sources des pages web, et donc comprendre le HTML.
+Scraping requires interpreting the source code of web pages and thus understanding HTML.
 
-Voici un petit [Formulaire HTML](formulaire_html.md). Il permet rapidemment d'apprendre ou se remémorer les balises principales permettant de lire du HTML et d'ainsi repérer les différents éléments d'une page web.
+Here is a small [HTML Form](formulaire_html.md). It quickly helps you learn or recall the main tags to read HTML and thus identify the different elements of a web page.
 
-## Législation autour du scraping
+## Legislation Around Scraping
 
-Le scraping web est généralement autorisé dans les cas suivants :</p>
-- Les données extraites sont des données accessibles au public.</li>
-- Les informations recueillies ne sont pas protégées par un login.</li>
+Web scraping is generally allowed in the following cases:
+- The extracted data is publicly accessible.
+- The information collected is not protected by a login.
 
-De manière générale, il faut souvent être prudent lors du scraping, notamment vis-à-vis des Termes de service, des données protégées par le droit d'auteur et des données personnelles (car les données personnelles sont généralement protégées par les lois sur la propriété intellectuelle).
+In general, it is often necessary to be cautious when scraping, especially regarding Terms of Service, data protected by copyright, and personal data (as personal data is generally protected by intellectual property laws).
 
-En droit de la concurrence, le web scraping peut être qualifié d'un acte de concurrence déloyale. 
+In competition law, web scraping can be considered an act of unfair competition.
 
-La CNIL a par exemple condamné la société Nestor à une amende de 20000 euros car elle avait construit sa base de prospects en ayant recours à la pratique de web scraping à partir de données accessibles sur le réseau social professionnel Linkedin (Pour plus d'infos voir les articles mentionnés).
+For example, the CNIL fined the company Nestor €20,000 because it built its prospect database using web scraping from data accessible on the LinkedIn professional social network (For more info, see the mentioned articles).
 
 ## Selenium vs BeautifulSoup
 
-Selenium est utile pour les pages web dynamiques où le contenu est généré via JavaScript, nécessitant des interactions utilisateur telles que les clics, le défilement, ou la saisie de texte.
+Selenium is useful for dynamic web pages where content is generated via JavaScript, requiring user interactions such as clicks, scrolling, or text input.
 
-BeautifulSoup est une bibliothèque Python utilisée principalement pour parser (analyser) des documents HTML et XML. Elle est utile pour extraire des données structurées à partir de pages web statiques.
+BeautifulSoup is a Python library primarily used to parse HTML and XML documents. It is useful for extracting structured data from static web pages.
 
-## Les différentes façon de localiser des éléments Web 
+## Different Ways to Locate Web Elements
 
 - ID = "id"
 - NAME = "name"
@@ -72,34 +68,30 @@ BeautifulSoup est une bibliothèque Python utilisée principalement pour parser 
 - CLASS_NAME = "class name"
 - CSS_SELECTOR = "css selector"
 
-
-## Avenir du scraping : LaVague
+## Future of Scraping: LaVague
 
 [lavague.ai](https://github.com/lavague-ai)
 
-
 ## Bonus: robots.txt
 
-Pour accéder à ce fichier, il s'agit de taper : url_racine/robots.txt
+To access this file, type: root_url/robots.txt
 
-Ce fichier permet de cadrer le trafic des robots d'exploration. On peut grâce à ce fichier connaitre les limitations imposées aux robots d'exploration.
+This file regulates the traffic of exploration robots. Through this file, you can know the limitations imposed on exploration robots.
 
+## Sources and Documentation
 
-## Sources et documentation
+- [All About Web Scraping](https://kinsta.com/fr/base-de-connaissances/web-scraping/)
 
-- [Tout sur le web scraping](https://kinsta.com/fr/base-de-connaissances/web-scraping/)
+- [Is Web Scraping Legal?](https://www.captaincontrat.com/protection-des-creations/cgv-cgu-cga/web-scraping-est-ce-legal-me-marcotte)
 
-- [Web scraping : est-ce légal](https://www.captaincontrat.com/protection-des-creations/cgv-cgu-cga/web-scraping-est-ce-legal-me-marcotte)
+- [Is Web Scraping Legal? What You Need to Know](https://www.iubenda.com/fr/help/111962-le-web-scraping-est-il-legal-ce-que-vous-devez-savoir#:~:text=La%20l%C3%A9galit%C3%A9%20du%20web%20scraping&text=Ne%20soyez%20pas%20trop%20enthousiaste,pas%20prot%C3%A9g%C3%A9es%20par%20un%20login)
 
-- [Le web scraping est-il légal ?](https://www.iubenda.com/fr/help/111962-le-web-scraping-est-il-legal-ce-que-vous-devez-savoir#:~:text=La%20l%C3%A9galit%C3%A9%20du%20web%20scraping&text=Ne%20soyez%20pas%20trop%20enthousiaste,pas%20prot%C3%A9g%C3%A9es%20par%20un%20login)
+- [The Nestor Case (1)](https://www.alerionavocats.com/condamnation-societe-nestor-prospection-commerciale-fondee-interet-legitime-responsable-traitement-enseignements-tirer/)
 
+- [The Nestor Case (2)](https://www.plravocats.fr/blog/data-protection-rgpd/la-societe-nestor-sanctionee-par-la-cnil)
 
-- [Le cas Nestor (1)](https://www.alerionavocats.com/condamnation-societe-nestor-prospection-commerciale-fondee-interet-legitime-responsable-traitement-enseignements-tirer/)
+- [Introduction to the robots.txt File](https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=fr)
 
-- [Le cas Nestor (2)](https://www.plravocats.fr/blog/data-protection-rgpd/la-societe-nestor-sanctionee-par-la-cnil)
+- [Selenium Documentation](https://selenium-python.readthedocs.io/)
 
-- [Présentation du fichier robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=fr)
-
-- [Documentation Selenium](https://selenium-python.readthedocs.io/)
-
-- [Documentation BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- [BeautifulSoup Documentation](https://beautiful-soup-4.readthedocs.io/en/latest/)
