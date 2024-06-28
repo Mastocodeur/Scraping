@@ -1,3 +1,18 @@
+**Table des matières** ⚡
+
+1. [Le scraping, qu'est-ce que c'est ?](#le-scraping-qu-est-ce-que-c-est-)
+    1. [Comment Ça Fonctionne](#comment-ça-fonctionne)
+    1. [Caractéristiques](#caractéristiques)
+1. [Installation](#installation-)
+    1. [Linux](#linux)
+    1. [macOS](#macos)
+    1. [Windows](#windows)
+1. [Mode d'emploi](#mode-demploi-)
+1. [Dépannage](#dépannage-)
+1. [Changelog](#changelog-)
+1. [Contributeurs](#contributeurs-)
+
+
 ## Le scraping, qu'est-ce que c'est ?
 
 Le scraping, ou "web scraping", est une technique utilisée pour extraire automatiquement des données à partir de sites web. Cette méthode permet de récupérer des informations structurées ou semi-structurées disponibles sur des pages web, que l'on peut ensuite analyser, traiter ou stocker pour divers usages. Mais il permet également d'automatiser des tâches sur un site. Il existe plusieurs module python permettant de faire du scraping : BeautifulSoup, Selenium, Scrapy, Requests, Octoparse.
