@@ -15,7 +15,11 @@ Le scraping web est généralement autorisé dans les cas suivants :</p>
 - Les données extraites sont des données accessibles au public.</li>
 - Les informations recueillies ne sont pas protégées par un login.</li>
 
-Il faut souvent être prudent lors du scraping, notamment vis-à-vis des Termes de service, des données protégées par le droit d'auteur et des données personnelles (car les données personnelles sont généralement protégées par les lois sur la vie privée). Le manque de lois explicites fait des usages du scraping une pratique juridiquement complexe.
+De manière générale, il faut souvent être prudent lors du scraping, notamment vis-à-vis des Termes de service, des données protégées par le droit d'auteur et des données personnelles (car les données personnelles sont généralement protégées par les lois sur la propriété intellectuelle).
+
+En droit de la concurrence, le web scraping peut être qualifié d'un acte de concurrence déloyale. 
+
+La CNIL a par exemple condamné la société Nestor à une amende de 20000 euros car elle avait construit sa base de prospects en ayant recours à la pratique de web scraping à partir de données accessibles sur le réseau social professionnel Linkedin (Pour plus d'infos voir les articles mentionnés).
 
 ## Selenium vs BeautifulSoup
 
@@ -48,7 +52,17 @@ Ce fichier permet de cadrer le trafic des robots d'exploration. On peut grâce �
 
 
 ## Sources et documentation
-- [Le web scrping est-il légal ?](https://www.iubenda.com/fr/help/111962-le-web-scraping-est-il-legal-ce-que-vous-devez-savoir#:~:text=La%20l%C3%A9galit%C3%A9%20du%20web%20scraping&text=Ne%20soyez%20pas%20trop%20enthousiaste,pas%20prot%C3%A9g%C3%A9es%20par%20un%20login)
+
+- [Tout sur le web scraping](https://kinsta.com/fr/base-de-connaissances/web-scraping/)
+
+- [Web scraping : est-ce légal](https://www.captaincontrat.com/protection-des-creations/cgv-cgu-cga/web-scraping-est-ce-legal-me-marcotte)
+
+- [Le web scraping est-il légal ?](https://www.iubenda.com/fr/help/111962-le-web-scraping-est-il-legal-ce-que-vous-devez-savoir#:~:text=La%20l%C3%A9galit%C3%A9%20du%20web%20scraping&text=Ne%20soyez%20pas%20trop%20enthousiaste,pas%20prot%C3%A9g%C3%A9es%20par%20un%20login)
+
+
+- [Le cas Nestor (1)](https://www.alerionavocats.com/condamnation-societe-nestor-prospection-commerciale-fondee-interet-legitime-responsable-traitement-enseignements-tirer/)
+
+- [Le cas Nestor (2)](https://www.plravocats.fr/blog/data-protection-rgpd/la-societe-nestor-sanctionee-par-la-cnil)
 
 - [Présentation du fichier robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=fr)
 
