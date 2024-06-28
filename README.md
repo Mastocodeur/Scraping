@@ -1,16 +1,13 @@
-**Table des matières** ⚡
+## Table des Matières
 
-1. [Le scraping, qu'est-ce que c'est ?](#le-scraping-qu-est-ce-que-c-est-)
-    1. [Comment Ça Fonctionne](#comment-ça-fonctionne)
-    1. [Caractéristiques](#caractéristiques)
-1. [Installation](#installation-)
-    1. [Linux](#linux)
-    1. [macOS](#macos)
-    1. [Windows](#windows)
-1. [Mode d'emploi](#mode-demploi-)
-1. [Dépannage](#dépannage-)
-1. [Changelog](#changelog-)
-1. [Contributeurs](#contributeurs-)
+1. [Qu'est-ce que le scraping ?](#qu-est-ce-que-le-scraping)
+2. [Introduction au HTML](#introduction-au-html)
+3. [Législation autour du scraping](#législation-autour-du-scraping)
+4. [Selenium vs BeautifulSoup](#selenium-vs-beautifulsoup)
+5. [Les différentes façons de localiser des éléments Web](#les-différentes-façons-de-localiser-des-éléments-web)
+6. [Avenir du scraping : LaVague](#avenir-du-scraping-lavague)
+7. [Bonus : robots.txt](#bonus-robots-txt)
+8. [Sources et documentation](#sources-et-documentation)
 
 
 ## Le scraping, qu'est-ce que c'est ?
