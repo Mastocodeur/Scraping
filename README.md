@@ -6,7 +6,7 @@
 4. [Selenium vs BeautifulSoup](#selenium-vs-beautifulsoup)
 5. [Les différentes façons de localiser des éléments Web](#les-différentes-façons-de-localiser-des-éléments-web)
 6. [Avenir du scraping : LaVague](#avenir-du-scraping-lavague)
-7. [Bonus: robots.txt](#bonus-robots-txt)
+7. [Bonus: robots.txt](#bonus-robots.txt)
 8. [Sources et documentation](#sources-et-documentation)
 
 
