@@ -9,7 +9,7 @@ Atelier pour découvrir deux modules python de scraping : Selenium et BeautifulS
 [![PyPI - License](https://img.shields.io/pypi/l/mmg)](https://github.com/ryul1206/multilingual-markdown/blob/main/LICENSE)
 
 🌏
-[**English**](https://github.com/Mastocodeur/Tutorial_Scraping/blob/main/README.md) |
+[**Anglais**](https://github.com/Mastocodeur/Tutorial_Scraping/blob/main/README.md) |
 Français |
 
 
