@@ -1,4 +1,5 @@
 <div align="center" markdown>
+
 # [Scraping Workshop](https://github.com/Mastocodeur/Tutorial_Scraping/)
 
 Workshop to discover two Python modules for scraping: Selenium and BeautifulSoup.
