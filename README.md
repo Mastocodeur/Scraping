@@ -10,8 +10,9 @@ Workshop to discover two Python modules for scraping: Selenium and BeautifulSoup
 [![PyPI - License](https://img.shields.io/pypi/l/mmg)](https://github.com/ryul1206/multilingual-markdown/blob/main/LICENSE)
 
 🌏
-[**French**](https://github.com/Mastocodeur/Tutorial_Scraping/blob/main/README.fr.md) |
 English |
+[**French**](https://github.com/Mastocodeur/Tutorial_Scraping/blob/main/README.fr.md) |
+
 
 
 
