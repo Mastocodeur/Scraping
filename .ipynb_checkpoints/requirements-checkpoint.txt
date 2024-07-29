@@ -1,6 +1,0 @@
-selenium
-beautifulsoup
-html5lib
-bs4
-requests
-webdriver-manager

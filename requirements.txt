@@ -1,6 +1,7 @@
 selenium
-beautifulsoup
+pandas
+beautifulsoup4
+ipykernel
 html5lib
-bs4
 requests
 webdriver-manager
